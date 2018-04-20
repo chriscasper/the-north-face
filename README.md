@@ -10,6 +10,10 @@ To run locally:
 
 You shoudl then be able to view the site locally at `http://localhost:8080/`
 
+## Notes
+
+Couple things to be noted. First is that I stubbed out the JSON object with locally hosted assets that I have resized. Also I have chosen Vue.js for this particular code challenge because I like to use my time on these types of projects to learn something new.
+
 ## Build Setup
 
 ``` bash
