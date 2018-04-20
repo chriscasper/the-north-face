@@ -22,12 +22,12 @@
          ],
          "thumbnailDesktop":"/static/images/collections/pro-project/110117-Pro-Project-hero-d.jpg?wid=1920",
          "thumbnailTablet":"/static/images/collections/pro-project/110117-Pro-Project-hero-t.jpg?wid=1024",
-         "thumbnailMobile":"/static/images/collections/pro-project/110117-Pro-Project-hero-2-m.jpg?wid=640",
+         "thumbnailMobile":"/static/images/collections/pro-project/110117-Pro-Project-hero-m.jpg?wid=640",
          "teaserText":"Life on the mountain requires durable, dependable equipment. Find high-quality ski patrol jackets, mountain uniforms, and ski patrol gear at The North Face."
       },
       {
          "jcr:path":"https://www.thenorthface.com/featured/homestead.html",
-         "jcr:title":"Homestead Collction",
+         "jcr:title":"Homestead Collection",
          "articleDate":"2018-01-20",
          "cq:tags":[
             "TNFfeatured, camping"

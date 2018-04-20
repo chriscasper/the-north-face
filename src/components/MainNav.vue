@@ -16,7 +16,7 @@
       <div id="navbarMainMenu" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item" href="/">Women's</a>
-          <a class="navbar-item" href="/">Mens's</a>
+          <a class="navbar-item" href="/">Men's</a>
           <a class="navbar-item" href="/">Kids'</a>
           <a class="navbar-item" href="/">Shoes</a>
           <a class="navbar-item" href="/">Equipment</a>
@@ -31,11 +31,6 @@
 <script>
 export default {
   name: 'MainNav',
-  data () {
-    return {
-      something: ''
-    }
-  },
   mounted () {
     // Lets setup the hamburger menu
     document.addEventListener('DOMContentLoaded', function () {

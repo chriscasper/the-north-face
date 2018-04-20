@@ -7,6 +7,9 @@
     <div class="container">
       <TernaryPromos :collections=collectionObj v-if="collectionObj !== null"></TernaryPromos>
     </div>
+    <div class="container">
+      <Outdoors/>
+    </div>
   </div>
 </template>
 
@@ -14,6 +17,7 @@
 import Hero from '@/components/Hero'
 import SecondaryPromos from '@/components/SecondaryPromos'
 import TernaryPromos from '@/components/TernaryPromos'
+import Outdoors from '@/components/Outdoors'
 
 export default {
   name: 'Home',
@@ -25,7 +29,8 @@ export default {
   components: {
     Hero,
     SecondaryPromos,
-    TernaryPromos
+    TernaryPromos,
+    Outdoors
   },
   methods: {
     getCollections: function () {

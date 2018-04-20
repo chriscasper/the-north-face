@@ -1,6 +1,14 @@
-# the-north-face
+# The North Face Code Challenge
 
 > A code challenge.
+
+To run locally:
+
+- Clone repo locally
+- `npm install`
+- `npm run dev`
+
+You shoudl then be able to view the site locally at `http://localhost:8080/`
 
 ## Build Setup
 
@@ -18,6 +26,8 @@ npm run build
 npm run build --report
 ```
 
+## Requirements
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 Featured Collection Page
@@ -25,7 +35,6 @@ Featured Collection Page
 You’ve been tasked with creating a new landing page to showcase TNF collections.  Below is a link to a JS object that’s been generated from an API response for TNF’s “Featured” pages. Use your FE development and design skills to layout a page as you see fit. Feel free to reference www.thenorthface.com for general design layouts if necessary but also feel free to use creative license.
 
 Use the object in this [link](https://bitbucket.org/bioradical/collections-page-project/src/3e0b073714e51318e824a5d5a5a410ad91f36f7d/main.js?at=master&fileviewer=file-view-default) and create an appropriate responsive page
-
 
 Please read the following carefully and let us know if you have any questions.
 

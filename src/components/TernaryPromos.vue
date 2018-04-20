@@ -1,17 +1,18 @@
 <template>
-  <section class="promos">
-    <div class="columns">
-      <div class="column" v-for="promo in promos" :key="promo['jcr:title']">
-        <picture>
-          <source v-bind:srcset="promo['thumbnailDesktop']" media="(min-width: 600px)">
-          <source v-bind:srcset="promo['thumbnailMobile']" media="(min-width: 600px)">
-          <img v-bind:src="promo['thumbnailTablet']" v-bind:alt="promo['jcr:title']">
-        </picture>
-        <h3>{{ promo['jcr:title'] }}</h3>
-        <p>{{ promo['teaserText'] }}</p>
+  <div class="ternary-promos">
+    <div class="columns is-multiline">
+      <div class="column is-half-tablet is-one-quarter-desktop" v-for="promo in promos" :key="promo['jcr:title']">
+        <div class="ternary-promo">
+          <img v-bind:src="promo['thumbnailMobile']" v-bind:alt="promo['jcr:title']">
+          <div class="ternary-promo-inner">
+            <a v-bind:href="promo['jcr:path']" target="_blank">
+              <h3>{{ promo['jcr:title'] }}</h3>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -58,5 +59,47 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.ternary-promos {
+  padding: 3rem 0;
 
+  .column {
+    text-align: center;
+
+    .ternary-promo {
+      position: relative;
+      line-height: 0;
+      img {
+        width: 100%;
+      }
+      .ternary-promo-inner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        a,a:visited {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.2);
+          padding: 0 15%;
+          color: #fff;
+          transition: all .2s ease-in;
+        }
+        a:hover {
+          background-color: #EB2B1E;
+        }
+        h3 {
+          font-weight: 600;
+          text-align: center;
+          letter-spacing: .02em;
+          line-height: 1.1;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
 </style>

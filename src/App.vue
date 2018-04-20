@@ -68,4 +68,7 @@ $navbar-item-img-max-height: 5rem;
   text-align: center;
   background-color: $red;
 }
+.column, .container {
+  transition: all .2s ease-in;
+}
 </style>

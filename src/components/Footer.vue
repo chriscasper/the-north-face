@@ -23,19 +23,14 @@
 
 <script>
 export default {
-  name: 'Footer',
-  data () {
-    return {
-      something: ''
-    }
-  },
-  mounted () {}
+  name: 'Footer'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   footer.footer {
+    border-bottom: 1px solid #EB2B1E;
     img.logo {
       max-height: 5rem;
       max-width: 5rem;
