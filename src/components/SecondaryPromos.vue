@@ -39,8 +39,8 @@ export default {
       let promosArray = []
       // Lets sort
       collectionArray.sort(function (a, b) {
-        var dateA = new Date(a.articleDate)
-        var dateB = new Date(b.articleDate)
+        var dateA = Date.parse(a.articleDate)
+        var dateB = Date.parse(b.articleDate)
         return dateA - dateB
       })
       // Reverse the array so we have the newest colelction at position 0
