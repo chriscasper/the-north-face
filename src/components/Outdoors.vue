@@ -51,8 +51,8 @@ export default {
         margin-bottom: .5em;
         text-transform: uppercase;
       }
-      .explore h4 {
-        padding: 0 22%;
+      &.explore h4 {
+        padding: 0 21%;
       }
       p {
         margin-bottom: 1.5rem;
