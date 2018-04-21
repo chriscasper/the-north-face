@@ -29,6 +29,10 @@ export default {
 </script>
 
 <style lang="scss">
+// Somethign is wrong with the css framework on mobile causing horizontal scrolling
+body {
+  overflow-x: hidden;
+}
 // Set Brand Colours
 $red: #EB2B1E; //#E72B1E SVG Logo Red varies from red used on site css
 $pink: #FA7C91;
